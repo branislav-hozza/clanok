@@ -3,14 +3,18 @@
 \documentclass[10pt,twoside,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
-\usepackage[IL2]{fontenc} 
+%\usepackage[T1]{fontenc}
+\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage{url} 
-\usepackage{hyperref} 
-\usepackage{cite}
+\usepackage{url} % príkaz \url na formátovanie URL
+\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
 
+\usepackage{cite}
+%\usepackage{times}
+
+\pagestyle{headings}
 \pagestyle{headings}
 
 \title{Využitie Natural Language Processing pre lepšie učenie jazyka\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2020/21, vedenie: J. Sitarčík}} 
