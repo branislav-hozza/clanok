@@ -3,15 +3,13 @@
 \documentclass[10pt,twoside,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
-%\usepackage[T1]{fontenc}
-\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[IL2]{fontenc} 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{url} % príkaz \url na formátovanie URL
-\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-
+\usepackage{float}
+\usepackage{url} 
+\usepackage{hyperref} 
 \usepackage{cite}
-%\usepackage{times}
 
 \pagestyle{headings}
 
@@ -25,23 +23,26 @@
 
 \date{\small 8. október 2020} 
 
-
-
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
-	V tejto práci sa zameriavame na zlepšenie učenia jazyka pomocou NLP \cite{NLP}. Výhody NLP majú bohaté využitie v učení ako napríklad prístup k obrovskému zdroju textov. NLP sa dnes využíva v mnohých odvetviach či už ako nástroje na rozpoznávanie reči alebo pomocník na opravu gramatických chýb. V edukačnom systéme sa dá hlavne využiť na výučbu jazykov. NLP dokáže vyhodnocovať komplexnosť textu a kontrolovať gramatiku či plagiátorstvo. Tento dokument bude zameraný hlavne na možné využitia a výzvy, ktorým musíme čeliť pri využití NLP technológie. Zameriam sa na to ako NLP učí o jazykoch a ako učí samotný jazyk.
+	V tejto práci sa zameriavame na zlepšenie učenia jazyka pomocou NLP \cite{NLP}. 
+	Výhody NLP majú bohaté využitie v učení ako napríklad prístup k obrovskému zdroju textov. 
+	NLP sa dnes využíva v mnohých odvetviach či už ako nástroje na rozpoznávanie reči alebo pomocník na opravu gramatických chýb. 
+	V edukačnom systéme sa dá hlavne využiť na výučbu jazykov. NLP dokáže vyhodnocovať komplexnosť textu a kontrolovať gramatiku či plagiátorstvo. 
+	Tento dokument bude zameraný hlavne na možné využitia a výzvy, ktorým musíme čeliť pri využití NLP technológie. 
+	Zameriam sa na to ako NLP učí o jazykoch a ako učí samotný jazyk.
 \end{abstract}
-
-
 
 \section{Úvod}
 
-NLP sa v dnešnej dobe používa takmer v každom odvetví, či už v zdravotníctve, v informatike, kontrola textu, dátová analýza, atď. V edukačnom systéme si môžeme ukázať v zozname \ref{zoznam_1}.
-Táto technológia má veľký potenciál vo využití pri učení anglického jazyka. Pri tejto forme štúdia vieme NLP využiť na kontrolu gramatiky pri písaní esejí, učenie slovíčok alebo správnej výslovnosti.
-Ako najväčšiu výhodu využitia tejto technológie v praxi vidíme hodnotenie testov so skalárne veľkým počtom testovaných študentov. Okrem korektnosti testov sme schopní taktiež kontrolovať plagiátorstvo textu.
+NLP sa v dnešnej dobe používa takmer v každom odvetví, či už v zdravotníctve, v informatike, kontrola textu, dátová analýza, atď. 
+V edukačnom systéme si môžeme ukázať v zozname \ref{zoznam_1}.Táto technológia má veľký potenciál vo využití pri učení anglického jazyka. 
+Pri tejto forme štúdia vieme NLP využiť na kontrolu gramatiky pri písaní esejí, učenie slovíčok alebo správnej výslovnosti.
+Ako najväčšiu výhodu využitia tejto technológie v praxi vidíme hodnotenie testov so skalárne veľkým počtom testovaných študentov. 
+Okrem korektnosti testov sme schopní taktiež kontrolovať plagiátorstvo textu.
 \begin{figure}[H]
 	\centering
 	\begin{itemize}\label{zoznam_1}
@@ -60,34 +61,14 @@ Je to druh umelej inteligencie. NLP má za sebou 70 rokov vývoja a prvé zmienk
 
 \section{Učenie jazyka} \label{ucenie_jazyka}
 
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
-
-
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
-
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
-
-
-
-\section{Dôležitá časť} \label{dolezita}
-
-
-
-
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
-
-
+Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie, 
+a potom na ešte nejaké.\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
 
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
 
 
 
-%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
-
-
-% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
 \bibliography{literatura}
-\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+\bibliographystyle{plain} 
 \end{document}
