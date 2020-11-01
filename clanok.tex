@@ -10,9 +10,11 @@
 \usepackage{float}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-
+\usepackage{framed}
 \usepackage{cite}
 %\usepackage{times}
+
+\graphicspath{ {./img/} }
 
 \pagestyle{headings}
 \pagestyle{headings}
@@ -41,26 +43,42 @@
 \end{abstract}
 %Uvod
 \section{Úvod}
-NLP\footnote{Natural Language Processing - spracovanie prirodzeného jazyka} sa v dnešnej dobe používa takmer v každom odvetví, či už v zdravotníctve, v informatike, kontrola textu, dátová analýza, atď. 
+\begin{flushleft}
+	NLP\footnote{Natural Language Processing - spracovanie prirodzeného jazyka} sa v dnešnej dobe používa takmer v každom odvetví, či už v zdravotníctve, v informatike, kontrola textu, dátová analýza, atď. 
 S príchodom nových technológií ako sú napríklad Big Data, Machine learning, MOOC\footnote{Massive open online course - veľké online kurzy} sa otvorili mnoho možností, 
 ako využiť NLP v praxi. V produkcii je už aktuálne mnoho aplikácii, ktoré túto technológiu využívajú pri rôznych kurzoch.
 V edukačnom systéme si môžeme ukázať v zozname \ref{zoznam_1}. Táto technológia má veľký potenciál vo využití pri učení anglického jazyka 
 alebo STEM\footnote{Science, technology, engineering and mathematics - veda, technológia, inžinierstov a matematika} predmetoch. 
 Pri tejto forme štúdia vieme NLP využiť na kontrolu gramatiky pri písaní esejí, učenie slovíčok alebo správnej výslovnosti.
 Ako najväčšiu výhodu využitia tejto technológie v praxi vidíme hodnotenie testov so skalárne veľkým počtom testovaných študentov. 
-Okrem korektnosti testov sme schopní taktiež kontrolovať plagiátorstvo textu.
-\begin{figure}[H]
+Okrem korektnosti testov sme schopní taktiež kontrolovať plagiátorstvo textu.\linebreak
+Ako môžeme vidiet v obrazku Č.\ref{nlp_obrazok}, výskum v aplikovaní NLP v edukacii spočíva v opakujúcom sa cykle. 
+Technologické inovácie sú inšpirované socialnymi potrebami. Technologická inovácia je najprv informovaná a následne prispieva 
+do edukačnej teórie a poskytuje dáta.
+\end{flushleft}
+
+
+\begin{framed}
 	\centering
-	\begin{itemize}\label{zoznam_1}
+	\begin{figure}[H]
+		\begin{itemize}\label{zoznam_1}
 			\item Vyučovanie linguistických predmetov.
 			– napr., čítanie, písánie, rozprávanie
 			\item Používanie NLP v potrebách študentov alebo učiteľov
 			– napr., knihy, učebné materiály, softvér
 			\item Učenie matematiky alebo fyziky
 			– napr., vytváranie slovných úloch, generovanie príkladov
-			\end{itemize}
-	\caption{Zoznam 1}
-\end{figure}
+		\end{itemize}
+		\centering Zoznam 1
+	\end{figure}
+\end{framed}
+\begin{framed}
+	\begin{figure}[H]\label{nlp_obrazok}
+		\includegraphics{nlp}
+		\centering
+		\caption{A picture of the universe!}
+	\end{figure}
+\end{framed}
 %Cast o NLP
 \section{Natural Language Processing} \label{NLP}
 \begin{flushleft}Je to druh umelej inteligencie, zameranej na prácu s textom a obrázkami.  
@@ -75,7 +93,7 @@ representation learning aj v NLP, pretože bolo dokázané že tieto techniky s�
 \end{flushleft}
 
 %Cast o uceni jazyka
-\section{Učenie jazyka} \label{ucenie_jazyka}
+\section{Učenie o jazyku} \label{ucenie_jazyka}
 Jedným z najstarších a napriek tomu najaktívnejším využití NLP je jeho využitie pri učení jazyka.
 Tento proces zvyčajne pozostáva vo vyhodnotení zručnosti študenta v písaní testov, v čítaní alebo
 rozprávaní v danom jazyku. Syntaktická analýza sa používa na detekciu a potencialne opravenie chybného použitia
@@ -84,7 +102,8 @@ predložiek pri skupinách ako sú ESL\footnote{English as second language - ľu
 \ldots
 
 %Cast o uceni pomocou NLP
-\section{Učenie pomocout NLP} \label{ucenie_pomocou_nlp}
+\section{Učenie jazyka} \label{ucenie_pomocou_nlp}
+Narozdiel od využitia ako analýzy (viď. predošlá časť), jazyk môže byž využitý aj ako výučbová metóda.
 V článku z roku 2011\cite{clanok_o_studovani} bolo dokázané, že skupina detí ktoré sa učia pomocou živého učiteľa, pochopili látku lepšie ako žiaci,
 ktorí sa učili pomocou PC.
 
