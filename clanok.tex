@@ -1,6 +1,6 @@
 % Metódy inžinierskej práce
 
-\documentclass[10pt,slovak,a4paper]{article}
+\documentclass[10pt,slovak,a4paper,twoside]{article}
 
 \usepackage[slovak]{babel}
 %\usepackage[T1]{fontenc}
@@ -12,7 +12,6 @@
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
 \usepackage{framed}
 \usepackage{cite}
-\usepackage{indentfirst}
 \usepackage{times}
 
 \graphicspath{ {./img/} }
@@ -49,15 +48,21 @@ NLP\footnote{Natural Language Processing - spracovanie prirodzeného jazyka} sa 
 v informatike, kontrola textu, dátová analýza, atď. S príchodom nových technológií ako sú napríklad Big Data, Machine learning, 
 MOOC\footnote{Massive open online course - veľké online kurzy} sa otvorili mnoho možností, ako využiť NLP v praxi. 
 V produkcii je už aktuálne mnoho aplikácii, ktoré túto technológiu využívajú pri rôznych kurzoch.
-V edukačnom systéme si môžeme ukázať v zozname \ref{zoznam_1}.\par
+V edukačnom systéme si môžeme ukázať v zozname \ref{zoznam_1}.
+
 Táto technológia má veľký potenciál vo využití pri učení anglického jazyka 
 alebo STEM\footnote{Science, technology, engineering and mathematics - veda, technológia, inžinierstov a matematika} predmetoch. 
 Pri tejto forme štúdia vieme NLP využiť na kontrolu gramatiky pri písaní esejí, učenie slovíčok alebo správnej výslovnosti.
 Ako najväčšiu výhodu využitia tejto technológie v praxi vidíme hodnotenie testov so skalárne veľkým počtom testovaných študentov. 
-Okrem korektnosti testov sme schopní taktiež kontrolovať plagiátorstvo textu.\par
+Okrem korektnosti testov sme schopní taktiež kontrolovať plagiátorstvo textu.
+
 Ako môžeme vidiet v obrazku Č.\ref{nlp_obrazok}, výskum v aplikovaní NLP v edukacii spočíva v opakujúcom sa cykle. 
 Technologické inovácie sú inšpirované socialnymi potrebami. Technologický výskum je najprv informovaný a následne prispieva 
 do edukačnej teórie a poskytuje dáta.
+
+V časti \ref{NLP} si vysvetlíme v skratke čo je NLP, v časti \ref{ucenie_o_jazyku} sa pozrieme na učenie o jazyku pomocou NLP, 
+v časti \ref{ucenie_pomocou_nlp} vysvetlíme ako sa využíva NLP pri učení jazyka a v časti \ref{spracovanie_jazyka} zisťujeme ako 
+spracovanie jazyka pomocou NLP pomáha ľudom lepšie učiť a ďalej skúmať NLP.
 
 
 
@@ -106,11 +111,12 @@ Zoznam možných využití NLP v praxi:
 	\item Syntaktická analýza
 \end{itemize}
 %Cast o uceni jazyka
-\section{Učenie o jazyku} \label{ucenie_jazyka}
+\section{Učenie o jazyku} \label{ucenie_o_jazyku}
 		Jedným z najstarších a napriek tomu najaktívnejším využití NLP je jeho využitie pri učení jazyka.
 	Tento proces zvyčajne pozostáva vo vyhodnotení zručnosti študenta v písaní testov, v čítaní alebo
 	rozprávaní v danom jazyku. Syntaktická analýza sa používa na detekciu a potencialne opravenie chybného použitia
-	predložiek pri skupinách ako sú ESL\footnote{English as second language - ľudia pre ktorých angličtina nie je primárny jazyk.} alebo hluchý študenti.\par
+	predložiek pri skupinách ako sú ESL\footnote{English as second language - ľudia pre ktorých angličtina nie je primárny jazyk.} alebo hluchý študenti.
+
 	Aktuálne potreby pri vymýšlaní testov a výučbových lekcií posúvajú tento odbor vopred niekoľkými smermi. Môžeme sa na to pozrieť z viacerých hľadísk. 
 	Z hľadiska textu ako napríklad vytváranie testov, písomných úloh a ústne skúšanie sa rozvíjajú a prinášajú nové výzvy pre existujúce metódy výučby.
 	Ako príklad si môžeme uviesť automatické vyhodnocovanie písomných testov pri MOOC, ktoré je pre MOOC kľúčové. Tento proces pomohol rozšíriť výskum analýzy textu, 
@@ -121,7 +127,8 @@ Zoznam možných využití NLP v praxi:
 	Narozdiel od využitia ako analýzy (viď. predošlá časť), jazyk môže byž využitý aj ako výučbová metóda.
 	V článku z roku 2011\cite{clanok_o_studovani} bolo dokázané, že skupina detí ktoré sa učia pomocou živého učiteľa, 
 	pochopili látku lepšie ako žiaci, ktorí sa učili pomocou PC. Hlavným rozdielom medzi ľudským učiteľom a PC učiteľom 
-	je, že iba človek vie používať prirodzené vety. \par 
+	je, že iba človek vie používať prirodzené vety.
+
 	V posledných rokoch sa systémy založené na dialógu snažia výkonovo čo najviac
 	priblížiť prirodzenej ľudskej reči. Uvažovalo sa aj nad tým, že učenie by sa malo odohrávať vo viac socialno 
 	realistickom prostredí aby sa PC učiteľ vedel viac adaptovať študentom.
@@ -132,16 +139,17 @@ Zoznam možných využití NLP v praxi:
 	učiteľov alebo vývojárov týchto automatizovaných systémov. Využíva sa obrovské množstvo textov a zvukových
 	stôp, ktoré sú dostupné v elektronickej podobe na socialnych sieťach, fórach, blogoch alebo stránkach ako 
 	napríklad Wikipédia. Jedným z najväčších zdrojov je tzv. Linguistic Data Consortium\footnote{Linguistic Data Consortium (http://www.ldc.upenn.edu/)}
-	\par
+	
 	Ak sa zameriame na výhody spracovania jazyka pre učiteľov, tak sa NLP využíva hlavne na automatizáciu ktoré by boli robené manuálne, 
 	ako napríklad: vytváranie učiva alebo pripravovanie testov. NLP môže byť využité aby bolo učivo presne zamerané na základe 
-	poskytnutých materiálov z elektronických zdrojov. Výsledkom by mohli byť weby, ktoré by boli žiakom ľahšie pochopiteľné ako odborné članky.\cite{miltsakaki2009matching}
+	poskytnutých materiálov z elektronických zdrojov. Výsledkom by mohli byť weby, ktoré by boli žiakom ľahšie pochopiteľné ako odborné članky\cite{miltsakaki2009matching}.
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
 	Tento článok bol zameraný na výskum vo využití NLP pri výučbe anglického jazyka. Tento článok bol motivovaný 
 	potrebami učiteľov a ľudmi ktorí sa radi učia jazyky. Aj napriek tomu že využitie NLP na učenie je jedno z najstarších využití, 
 	nové fenomény ako MOOC a Big Data priniesli mnoho nových možností v tomto odvetví a taktiež upevnilo puto medzi výskumom NLP a inými 
-	odvetviami umelej inteligencie.\par
+	odvetviami umelej inteligencie.
+
 	Tento článok začal analýzou NLP v edukačnom systéme ako takom a následne sme sa zamerali na spôsob využitia pri učení jazyka, 
 	učení pomocou jazyka a spracovanie jazyka. V prvej časti sme našli veľký potencial NLP pri vyhodnocovaní testov, textov a pri skúšaní.
 	V druhej časti sme sa pozreli na učeni pomocou jazyka, kde sa ale prekázalo že zaťial je študentom ľahšie študovať pomocou živého človeka, 
