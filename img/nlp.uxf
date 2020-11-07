@@ -1,0 +1,26 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLUseCase</id><coordinates><x>88</x><y>420</y><w>100</w><h>100</h></coordinates><panel_attributes>Technológia 
+založená na NLP</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>530</x><y>420</y><w>100</w><h>100</h></coordinates><panel_attributes>Učenie sa
+a
+vyučovanie</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>300</x><y>710</y><w>100</w><h>100</h></coordinates><panel_attributes>Kognitívne
+modelovanie
+a
+Systémy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>590</x><y>300</y><w>130</w><h>100</h></coordinates><panel_attributes>lt=.
+Problémy 
+reálneho sveta
+fg=red
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>460</y><w>370</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>350;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>510</y><w>210</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;210;190;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>510</y><w>200</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;210</additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>500</y><w>210</w><h>110</h></coordinates><panel_attributes>_Výzvy_
+--
+- Uživateľom generovaný obsah
+- Zmysluplnosť
+- Výkonnosť
+- Škálovateľnost
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>390</y><w>50</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>30;50;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>0</x><y>300</y><w>130</w><h>100</h></coordinates><panel_attributes>lt=.
+Aplikačné systémy
+a vyhodnotenie
+fg=red
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>380</y><w>60</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;50;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>770</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>430</x><y>740</y><w>130</w><h>100</h></coordinates><panel_attributes>lt=.
+Teoretické a
+empirické
+základy
+fg=red
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element></diagram>
