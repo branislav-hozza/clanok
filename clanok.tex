@@ -35,7 +35,7 @@
 \maketitle
 %Abstrakt
 \begin{abstract}
-	V tejto práci sa zameriavame na zlepšenie učenia jazyka pomocou NLP \cite{litman2016natural}. 
+	V tejto práci sa zameriavame na zlepšenie učenia jazyka pomocou spracovania prirodzeného jazyka (NLP).
 	Výhody NLP majú bohaté využitie v učení ako napríklad prístup k obrovskému zdroju textov. 
 	NLP sa dnes využíva v mnohých odvetviach či už ako nástroje na rozpoznávanie reči alebo pomocník na opravu gramatických chýb. 
 	V edukačnom systéme sa dá hlavne využiť na výučbu jazykov. NLP dokáže vyhodnocovať komplexnosť textu a kontrolovať gramatiku či plagiátorstvo. 
@@ -45,22 +45,22 @@
 %Úvod
 \section{Úvod}\label{uvod}
 NLP\footnote{Natural Language Processing - spracovanie prirodzeného jazyka} sa v dnešnej dobe používa takmer v každom odvetví, či už v zdravotníctve, 
-v informatike, kontrola textu, dátová analýza, atď. S príchodom nových technológií ako sú napríklad \textit{Big Data}, strojové učenie a 
+v informatike, pri kontrole textu, dátovej analýza, atď. S príchodom nových technológií ako sú napríklad \textit{Big Data}, strojové učenie a 
 MOOC\footnote{Massive open online course - veľké online kurzy} sa otvorili mnoho možností, ako využiť NLP v praxi. 
-V produkcii je už aktuálne mnoho aplikácii, ktoré túto technológiu využívajú pri rôznych kurzoch.
-V edukačnom systéme si môžeme ukázať v zozname:
+V produkcii je už aktuálne mnoho aplikácii, ktoré túto technológiu využívajú pri rôznych kurzoch. \cite{litman2016natural}. 
+Príklady využitia NLP v edukačnom systéme si môžeme ukázať v zozname:
 \begin{itemize}
 	\item Vyučovanie lingvistických predmetov.
-	– napr., čítanie, písanie, rozprávanie
+	– napr. čítanie, písanie, rozprávanie
 	\item Používanie NLP v potrebách študentov alebo učiteľov
-	– napr., knihy, učebné materiály, softvér
+	– napr. knihy, učebné materiály, softvér
 	\item Učenie matematiky alebo fyziky
-	– napr., vytváranie slovných úloh, generovanie príkladov
+	– napr. vytváranie slovných úloh, generovanie príkladov
 \end{itemize}
 
 Táto technológia má veľký potenciál vo využití pri učení anglického jazyka 
 alebo STEM\footnote{Science, technology, engineering and mathematics - veda, technológia, inžinierstvo a matematika} predmetoch. 
-Pri tejto forme štúdia vieme NLP využiť na kontrolu gramatiky pri písaní esejí, učenie slovíčok alebo správnej výslovnosti.
+Pri tejto forme štúdia vieme NLP využiť na kontrolu gramatiky pri písaní esejí, učenie slovnej zásoby alebo správnej výslovnosti.
 Ako najväčšiu výhodu využitia tejto technológie v praxi vidíme hodnotenie testov s veľkým počtom testovaných študentov. 
 Okrem korektnosti testov sme schopní taktiež kontrolovať plagiátorstvo textu.
 
@@ -75,23 +75,23 @@ spracovanie jazyka pomocou NLP pomáha ľudom lepšie učiť a ďalej skúmať N
 \begin{figure}[H]\label{nlp_obrazok}
 	\includegraphics[width=0.9\textwidth]{nlp}
 	\centering
-	\caption{Cyklus technologickej inovácie}
+	\caption{Cyklus technologickej inovácie\cite{litman2016natural}}
 \end{figure}
-\end{framed}1
+\end{framed}
 %Čast o NLP
 \section{Natural Language Processing} \label{NLP}
-Je to druh umelej inteligencie, zameranej na prácu s textom a obrázkami.  
+Je to podoblasť umelej inteligencie zameranej na prácu s textom a obrázkami.  
 Táto technológia je spojením lingvistiky a informatiky, 
 pričom vzniká snaha aby stroj porozumel prirodzenej reči človeka.
 NLP má za sebou 70 rokov vývoja a prvé zmienky sú z roku 1950\cite{historia}.
 \subsection{História}
-	Už v roku 1950, Alan Turing publikoval článok "Computing Machinery and Intelligence"\cite{turing2009computing} 
-	ktorý priniesol tzv. Turingov test ako kritérium inteligencie, pre automaticky generovanú 
+	Už v roku 1950 Alan Turing publikoval článok "Computing Machinery and Intelligence"\cite{turing2009computing}, 
+	ktorý priniesol tzv. Turingov test ako kritérium inteligencie pre automaticky generovanú 
 	prirodzenú reč. V tej dobe sa NLP nerozlišovalo od umelej inteligencie.\linebreak
 	Okolo roku 2010 sa začali rozširovať metódy strojového učenia ako napríklad hlboké učenie alebo 
 	\textit{representation learning} aj v NLP, pretože bolo dokázané že tieto techniky sú veľmi účinné.
 \subsection{Využitie}
-Zoznam možných využití NLP v praxi:
+Zoznam možných využití NLP v praxi\cite{vyuzitieNLP}:
 \begin{itemize}
 	\item OCR - Optické rozoznávanie znakov
 	\item Rozpoznávanie hlasu
@@ -101,19 +101,43 @@ Zoznam možných využití NLP v praxi:
 	\item Morfologická analýza
 	\item Syntaktická analýza
 \end{itemize}
+\subsection{Výhody v MOOC}
+Okrem iného by som chcel v článku aj zahrnúť pohľad na cenník kurzov [viď tabuľka č.\ref{table:ceny_edx}] využitých v MOOC systéme edX v roku 2018\cite{cenyEdX}. 
+V tabuľke si môžeme všimnúť výhodu NLP, ktorý daný MOOC využíva. NLP vie výrazne pomáhať v marketingu a odľahčiť ľudskú prácu v týchto systémoch.
+\begin{table}[H]
+	\begin{tabular}{ |c|c|c| } 
+		\hline
+		Degree Name & University	& Cost	\\
+		\hline
+		\hline
+		Computer Science		& The University of Texas at Austin		& \$10,000 \\ 
+		Analytics		& Georgia Tech		& \$9,900 \\ 
+		Data Science		& The University of California, San Diego		& \$15,000 \\ 
+		Cybersecurity		& Georgia Tech		& \$9920 \\ 
+		Marketing & Curtin University		& AUD 31,475 \\ 
+		Accounting & Indiana University		& \$21,000 \\ 
+		Leadership: Service Innovation		& The University of Queensland		& AUD 25,500 \\ 
+		IT Management		& Indiana University		& \$21,000 \\ 
+		IT Supply Chain Management		& Arizona State University		& N/A \\ 
+		\hline
+	\end{tabular}
+	\caption{Tabuľka cien kurzov v edX}
+	\label{table:ceny_edx}
+\end{table}
 \section{Využitie NLP pri výučbe jazyka}\label{vyuzitie_jazyka_nlp}
+Pri výučbe jazyka rozlišujeme využitie NLP na tri podoblasti: učenie o jazyku, učenie jazyka a spracovanie jazyka.
 %Čast o učení jazyka
 \subsection{Učenie o jazyku} \label{ucenie_o_jazyku}
 		Jedným z najstarších a napriek tomu najaktívnejším využití NLP je jeho využitie pri učení jazyka.
 	Tento proces zvyčajne pozostáva vo vyhodnotení zručnosti študenta v písaní testov, v čítaní alebo
 	rozprávaní v danom jazyku. Syntaktická analýza sa používa na detekciu a potenciálne opravenie chybného použitia
-	predložiek pri skupinách ako sú ESL\footnote{English as second language - ľudia pre ktorých angličtina nie je primárny jazyk.} alebo hluchý študenti.
+	predložiek pri skupinách ako sú ESL\footnote{English as second language - ľudia pre ktorých angličtina nie je primárny jazyk.} alebo hluchí študenti.
 
 	Aktuálne potreby pri vymýšľaní testov a výučbových lekcií posúvajú tento odbor vopred niekoľkými smermi. Môžeme sa na to pozrieť z viacerých hľadísk. 
 	Z hľadiska textu ako napríklad vytváranie testov, písomných úloh a ústne skúšanie sa rozvíjajú a prinášajú nové výzvy pre existujúce metódy výučby.
 	Ako príklad si môžeme uviesť automatické vyhodnocovanie písomných testov pri MOOC, ktoré je pre MOOC kľúčové. Tento proces pomohol rozšíriť výskum analýzy textu, 
 	ktorý bol generovaný počas štandardizovaného textu využitého v teste. Okrem toho niektoré MOOC používajú dobrovoľníkov na vyhodnocovanie testov, 
-	kvôli slabej spoľahlivosti alebo presnosti systému. Namiesto toho by radšej mohli plne automatizovať vyhodnocovacie metódy.
+	kvôli slabej spoľahlivosti alebo presnosti systému. Namiesto toho by radšej mohli plne automatizovať vyhodnocovacie metódy.\cite{litman2016natural}
 %Čast o učení pomocou NLP
 \subsection{Učenie jazyka} \label{ucenie_pomocou_nlp}
 	Narozdiel od využitia ako analýzy (viď. predošlá časť), jazyk môže byť využitý aj ako výučbová metóda.
@@ -146,6 +170,7 @@ Zoznam možných využití NLP v praxi:
 	V druhej časti sme sa pozreli na učení pomocou jazyka, kde sa ale prekážalo že zatiaľ je študentom ľahšie študovať pomocou živého človeka, 
 	pretože jeho reč je prirodzenejšia. V poslednej časti sme zistili že NLP dokáže spracovať jazyk z rôznych zdrojov a tak poskytnúť prehľadnejšie dáta
 	učiteľom, žiakom ale aj výskumníkom v tejto oblasti. Objavili sme mnohé príležitosti ale aj výzvy, ktorým musíme ešte čeliť.
+
 
 \bibliography{literatura}
 \bibliographystyle{plain} 
